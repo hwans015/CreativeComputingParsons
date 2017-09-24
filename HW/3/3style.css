@@ -1,0 +1,45 @@
+	h1{
+		font-family: "didot";
+		color: #FF0;
+		background-color: #000;
+		padding: 30px;
+		margin: 10px;
+	}	
+	h2{
+		font-family: "didot";
+		font-style: bold;
+		text-decoration: underline;
+
+	}
+	body{
+		background-color: #F0F8FF; 
+	}
+	p{
+		font-style: normal;
+		font-family: "Baskerville"
+	}
+	a{
+		font-style: normal;
+		color: #708090;
+	}
+	a:hover{
+		font-style: italic;
+		color: #FF0000;
+		background-color: #000;
+	}
+	
+	#Elevator:hover{
+		color: #000080;
+		background-color: #FFFF00;
+		font-style: italic;
+
+	}
+	#retry:hover{
+		color: #000080;
+		background-color: #FFFF00;
+		font-style: italic;
+	}	
+
+	#dead {
+		color: #FF0000;
+	}
