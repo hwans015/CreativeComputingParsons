@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	
+html, body {
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #FBF8ED;
+}
+
+/*div{
+	background-color: #FFF67E; 
+	width: 300px; height: 600px; 
+}*/
+.swatch{position: absolute;
+		top: 50vmin; left: 50vmin; width: 200px; height: 400px;}
+
+.center{background-color: #FFF67E; opacity: .5;}
+
+.right{transform-origin: 0% 100%; background-color: #FFF67E; opacity: .5;}
+
+.left{transform-origin: 0% 100%; background-color: #FFF67E; opacity: .5;}
+
+
+@keyframes 
+rot
+{	50%{transform: rotate(25deg); background-color: #F8D44B;}
+
+	100%{transition: initial; background-color: #FFF67E;}	
+}
+
+@keyframes
+rotation
+{	50% {transform: rotate(-25deg); background-color: #F8D44B;}
+	100% {transition: initial;background-color: #FFF67E; }
+}
+
+
+.rotate1{ animation: rotation 4s infinite; }
+
+.rotate2{ animation: rot 4s infinite; }
+
+</style>
+</head>
+<body>
+<div class="swatch center"></div>
+	<div class="swatch right rotate2"></div>
+		<div class="swatch left rotate1"></div>
+</body>
+</html>

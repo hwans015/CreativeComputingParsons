@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{ position: absolute;
+	top: 20%; left: 40%; 
+	height: 70px; width:300px;
+	-webkit-transform: rotate(-3deg);
+}
+.pink1{
+	background-color: #ED8271;
+}
+.pink2{
+	background-color: #E45038;
+	animation: dropone 10s infinite; 
+}
+.pink3{
+	background-color: #DE5A60;
+	animation: droptwo 10s infinite;
+}
+.pink4{
+	background-color: #BE262D;
+	animation: dropthree 10s infinite;
+}
+.pink5{
+	background-color: #EC848A;
+	animation: dropfour 10s infinite;
+}
+.pink6{
+	background-color: #B84F5F;
+	animation: dropfive 10s infinite;
+}
+.pink7{
+	background-color: #E75137;
+	animation: dropsix 10s infinite;
+}
+.pink8{
+	background-color: #B72049;
+	animation: dropseven 10s infinite;
+}
+
+
+@keyframes dropone{ 
+  0% {transform: translateY(0) rotate(-3deg);}
+  50% {transform: translateY(70px) translateX(15px) rotate(3deg);}
+  100% {transform: translateY(0) rotate(-3deg);}
+
+}
+
+@keyframes droptwo{ 
+  0% {transform: translateY(0) rotate(5deg);}
+  50% {transform: translateY(160px) translateX(20px) rotate(-5deg);}
+  100% {transform: translateY(0) rotate(5deg);}
+}
+
+@keyframes dropthree{ 
+  0% {transform: translateY(0) rotate(5deg);}
+  50% {transform: translateY(200px) translateX(-60px) rotate(-7deg);}
+  100% {transform: translateY(0) rotate(5deg);}
+}
+
+@keyframes dropfour{ 
+  0% {transform: translateY(0) rotate(-7deg);}
+  50% {transform: translateY(260px) translateX(24px) rotate(8deg);}
+  100% {transform: translateY(0) rotate(-7deg);}
+}
+
+@keyframes dropfive{ 
+  0% {transform: translateY(0) rotate(5deg);}
+  50% {transform: translateY(310px) translateX(40px) rotate(-3deg);}
+  100% {transform: translateY(0) rotate(5deg);}
+}
+
+@keyframes dropsix{ 
+  0% {transform: translateY(0) rotate(-3deg);}
+  50% {transform: translateY(360px) translateX(5px) rotate(3deg);}
+  100% {transform: translateY(0) rotate(-3deg);}
+}
+
+@keyframes dropseven{ 
+  0% {transform: translateY(0) rotate(-3deg);}
+  50% {transform: translateY(420px) translateX(-20px) rotate(7deg);}
+  100% {transform: translateY(0) rotate(-3deg);}
+}
+
+</style>
+	<title></title>
+</head>
+<body>
+	<div class="pink1"></div>
+	<div class="pink2"></div>
+	<div class="pink3"></div>
+	<div class="pink4"></div>
+	<div class="pink5"></div>
+	<div class="pink6"></div>
+	<div class="pink8"></div>
+	<div class="pink7"></div>
+
+</body>
+</html>
