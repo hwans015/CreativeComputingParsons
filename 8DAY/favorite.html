@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<script>
+	
+var colorArray = ["black","pink","red"];
+var animals = ["dog","cat","cat"];
+var foods = ["pasta","sushi","chocolate"]
+
+console.log(colorArray[2], animals[2], foods[2]);
+
+
+var sejung = {
+	"color" : "black", 
+	"animal" : "dog",
+	"food" : "pasta"
+};
+
+var yooan = {
+	"color" : "pink", 
+	"animal" : "cat",
+	"food" : "chocolate"
+};
+
+var dahee = {
+	"color" : "red", 
+	"animal" : "cat",
+	"food" : "sushi"
+};
+
+var people = [sejung, yooan, dahee];
+
+console.log(people);
+console.log(people[0].animal);
+
+var people2 = {
+	"sejung" : sejung,
+	"yooan" : yooan,
+	"dahee" : dahee
+};
+
+// console.log(people2);
+// console.log(people2.sejung.animal);
+
+var people3 = {
+	"sejung" :  {
+		"color" : "black", 
+		"animal" : "dog",
+		"food" : "pasta"
+	},
+	"yooan" : {
+		"color" : "pink", 
+		"animal" : "cat",
+		"food" : "chocolate"
+	},
+	"dahee" : {
+		"color" : "red", 
+		"animal" : "cat",
+		"food" : "sushi"
+	}
+
+};
+
+
+
+
+// console.log( sejung ); 
+// console.log( sejung.color );
+// console.log( sejung["color"] );
+// 			 sejung[5];  
+
+</script>
+</body>
+</html>
