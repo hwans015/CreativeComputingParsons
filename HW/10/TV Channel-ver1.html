@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#giphy {
+			margin:0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>
+	<img id="giphy" src="">
+<script>
+	
+
+
+    var screen = document.getElementById("giphy"), 
+    imgs = ["1.gif", "2.gif","3.gif","4.gif","5.gif"],
+    counter = 0;
+    imgs[counter];
+
+	document.body.addEventListener("keydown", function(event){
+	
+		event = event || window.event; 
+	
+		if(event.keyCode == '38'){
+			counter++;
+		}
+		if(event.keyCode == '40'){
+			counter--;
+		}
+		if(counter == 5){
+			counter =0  ;
+		}
+		if(counter == -1){
+			counter = 4;
+		}
+
+			document.getElementById("giphy").src = imgs[counter];
+
+
+	});
+
+
+
+
+
+</script>
+</body>
+</html>
